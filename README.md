@@ -1,19 +1,19 @@
 <p align="center">
 
-  <h1 align="center">Learning Consistency-Aware Unsigned Distance Functions Progressively from Raw Point Clouds </br> (NeurIPS 2022)</h1>
+  <h1 align="center">Learning Consistency-Aware Unsigned Distance Functions Progressively from Raw Point Clouds</h1>
   <p align="center">
-    <a href="https://zzh2000.github.io"><strong>Junsheng Zhou*</strong></a>
+    <a href="https://junshengzhou.github.io/"><strong>Junsheng Zhou*</strong></a>
     ·
-    <a href="https://pengsongyou.github.io"><strong>Baorui Ma*</strong></a>
+    <a href="https://mabaorui.github.io/"><strong>Baorui Ma*</strong></a>
     ·
-    <a href="https://zhpcui.github.io/"><strong>Yu-Shen Liu</strong></a>
+    <a href="https://yushen-liu.github.io/"><strong>Yu-Shen Liu</strong></a>
     ·
-    <a href="http://people.inf.ethz.ch/moswald/"><strong>Yi Fang</strong></a>
+    <a href="https://engineering.nyu.edu/faculty/yi-fang"><strong>Yi Fang</strong></a>
     ·
-    <a href="https://people.inf.ethz.ch/pomarc/"><strong>Zhizhong Han</strong></a>
+    <a href="https://h312h.github.io/"><strong>Zhizhong Han</strong></a>
 
   </p>
-  
+  <h2 align="center">NeurIPS 2022</h2>
   <h3 align="center"><a href="https://junshengzhou.github.io/CAP-UDF">Paper</a> | <a href="https://junshengzhou.github.io/CAP-UDF">Project Page</a></h3>
   <div align="center"></div>
 </p>

@@ -1,6 +1,6 @@
 <p align="center">
 
-  <h1 align="center">Learning Consistency-Aware Unsigned Distance Functions Progressively from Raw Point Clouds (NeurIPS 2022)</h1>
+  <h1 align="center">Learning Consistency-Aware Unsigned Distance Functions Progressively from Raw Point Clouds </br> (NeurIPS 2022)</h1>
   <p align="center">
     <a href="https://zzh2000.github.io"><strong>Junsheng Zhou*</strong></a>
     ·
@@ -18,14 +18,14 @@
   <div align="center"></div>
 </p>
 
-<p align="left">
+<p align="center">
   <img src="figs/2d_demo.png" width="780" />
 </p>
 
 We propose to learn a consistency-aware distance field to represent open and multi-layer shapes. We show a 2D case of learning the distance field from a sparse 2D point cloud $P$ which only contains 13 points. The level-sets show the distance fields learned by (a) Neural-pull, (b) SAL, (c) NDF, (d) Ours. The color of blue and red represent positive or negative distance. The darker the color, the closer it is to the approximated surface.
 
 ## Overview
-<p align="left">
+<p align="center">
   <img src="figs/overview.png" width="780" />
 </p>
 

@@ -31,6 +31,13 @@ We propose to learn a consistency-aware distance field to represent open and mul
 
 Overview of our method. The CAP-UDF is designed to reconstruct surfaces from raw point clouds by learning consistency-aware UDFs. Given a 3D query $q_i \in {Q_1}$ as input, the neural network $f$ predicts the unsigned distance $f(q_i)$ of $q_i$ and moves $q_i$ against the gradient direction at $q_i$ with a stride of $f(q_i)$. The field consistency loss is then computed between the moved queries $q'_i$ and the target point cloud $P$ as the optimization target. After the network converges in the current stage, we update $P$ with a subset of $q'_i$ as additional priors to learn more local details in the next stage. Finally, we use the gradient vector field of the learned UDFs to model the relationship between different 3D grids and extract iso-surfaces directly.
 
+## Demo Results
+<p align="center">
+  <img src="figs/cars.png" width="780" />
+  <img src="figs/3dscene.png" width="780" />
+  <img src="figs/srb.png" width="780" />
+</p>
+
 
 ## Installation
 Our code is implemented in Python 3.8, PyTorch 1.11.0 and CUDA 11.3.
@@ -48,7 +55,7 @@ python setup.py install
 ```
 
 ## Dataset
-We provide the processed data for ShapeNetCars, 3DScenes and SRB dataset here. Unzip it to the `./data` folder. The datasets is organised as follows:
+We provide the processed data for ShapeNetCars, 3DScenes and SRB dataset [here](https://drive.google.com/file/d/1BNzmd_OX0s4lxta3FFeRWRYwfGQOALS_/view?usp=sharing). Unzip it to the `./data` folder. The datasets is organised as follows:
 ```
 │data/
 ├──shapenetCars/
@@ -127,7 +134,7 @@ python run.py --gpu 0 --conf confs/base.conf --dataname (dataname) --dir (datana
 
 ### Notice
 
-In different datasets or your own data, because of the variation in point cloud density, this hyperparameter [scale](https://github.com/mabaorui/OnSurfacePrior/blob/d53bf3a7bc88837e2974ddc1fd0700ecc2641ade/onSurPrior.py#L425) has a very strong influence on the final result, which controls the distance between the query points and the point cloud. So if you want to get better results, you should adjust this parameter. We give `0.25 * np.sqrt(POINT_NUM_GT / 20000)` here as a reference value, and this value can be used for most object-level reconstructions. 
+In different datasets or your own data, because of the variation in point cloud density, this hyperparameter [scale](https://github.com/junshengzhou/CAP-UDF/blob/eb22ffd4b3f34d4fa74e1863ece7ff37d63d03cc/models/dataset.py#L51) has a very strong influence on the final result, which controls the distance between the query points and the point cloud. So if you want to get better results, you should adjust this parameter. We give `0.25 * np.sqrt(POINT_NUM_GT / 20000)` here as a reference value, and this value can be used for most object-level reconstructions. 
 
 ## Citation
 If you find our code or paper useful, please consider citing

@@ -35,7 +35,7 @@ Overview of our method. The CAP-UDF is designed to reconstruct surfaces from raw
 <p align="center">
   <img src="figs/cars.png" width="780" />
   <img src="figs/3dscene.png" width="780" />
-  <img src="figs/srb.png" width="780" />
+  <img src="figs/srb.png" width="760" />
 </p>
 
 

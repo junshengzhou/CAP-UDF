@@ -22,7 +22,7 @@
   <img src="figs/2d_demo.png" width="780" />
 </p>
 
-We propose to learn a consistency-aware distance field to represent open and multi-layer shapes. We show a 2D case of learning the distance field from a sparse 2D point cloud $P$ which only contains 13 points. The level-sets show the distance fields learned by (a) Neural-pull, (b) SAL, (c) NDF, (d) Ours. The color of blue and red represent positive or negative distance. The darker the color, the closer it is to the approximated surface.
+We propose to learn a consistency-aware unsigned distance field to represent shapes and scenes with arbitary architecture. We show a 2D case of learning the distance field from a sparse 2D point cloud $P$ which only contains 13 points. The level-sets show the distance fields learned by (a) Neural-pull, (b) SAL, (c) NDF, (d) Ours. The color of blue and red represent positive or negative distance. The darker the color, the closer it is to the approximated surface.
 
 ## Overview
 <p align="center">
@@ -32,9 +32,18 @@ We propose to learn a consistency-aware distance field to represent open and mul
 Overview of our method. The CAP-UDF is designed to reconstruct surfaces from raw point clouds by learning consistency-aware UDFs. Given a 3D query $q_i \in {Q_1}$ as input, the neural network $f$ predicts the unsigned distance $f(q_i)$ of $q_i$ and moves $q_i$ against the gradient direction at $q_i$ with a stride of $f(q_i)$. The field consistency loss is then computed between the moved queries $q'_i$ and the target point cloud $P$ as the optimization target. After the network converges in the current stage, we update $P$ with a subset of $q'_i$ as additional priors to learn more local details in the next stage. Finally, we use the gradient vector field of the learned UDFs to model the relationship between different 3D grids and extract iso-surfaces directly.
 
 ## Demo Results
+### ShapeNetCars
 <p align="center">
   <img src="figs/cars.png" width="780" />
+</p>
+
+### 3DScenes
+<p align="center">
   <img src="figs/3dscene.png" width="780" />
+</p>
+
+### SRB
+<p align="center">
   <img src="figs/srb.png" width="760" />
 </p>
 

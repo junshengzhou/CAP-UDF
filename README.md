@@ -14,7 +14,7 @@
 
   </p>
   <h2 align="center">NeurIPS 2022</h2>
-  <h3 align="center"><a href="https://junshengzhou.github.io/CAP-UDF">Paper</a> | <a href="https://junshengzhou.github.io/CAP-UDF">Project Page</a></h3>
+  <h3 align="center"><a href="https://arxiv.org/pdf/2210.02757.pdf">Paper</a> | <a href="https://junshengzhou.github.io/CAP-UDF">Project Page</a></h3>
   <div align="center"></div>
 </p>
 

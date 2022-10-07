@@ -47,13 +47,18 @@ Overview of our method. The CAP-UDF is designed to reconstruct surfaces from raw
   <img src="figs/srb.png" width="760" />
 </p>
 
+## Related works
+Please also check out the following works that inspire us a lot:
+* [Baorui Ma et al. - Neural-Pull: Learning Signed Distance Functions from Point Clouds by Learning to Pull Space onto Surfaces (ICML2021)](https://github.com/mabaorui/NeuralPull-Pytorch)
+* [Baorui Ma et al. - Surface Reconstruction from Point Clouds by Learning Predictive Context Priors (CVPR2022)](https://mabaorui.github.io/PredictableContextPrior_page/)
+* [Baorui Ma et al. - Reconstructing Surfaces for Sparse Point Clouds with On-Surface Priors (CVPR2022)](https://mabaorui.github.io/-OnSurfacePrior_project_page/)
 
 ## Installation
 Our code is implemented in Python 3.8, PyTorch 1.11.0 and CUDA 11.3.
 - Install python Dependencies
 ```bash
-conda create -n npull python=3.8
-conda activate npull
+conda create -n capudf python=3.8
+conda activate capudf
 conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
 pip install tqdm pyhocon trimesh PyMCubes scipy point_cloud_utils
 ```

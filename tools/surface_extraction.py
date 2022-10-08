@@ -28,7 +28,7 @@ def as_mesh(scene_or_mesh):
 def surface_extraction(ndf, grad, out_path, iter_step, b_max, b_min, resolution):
     v_all = []
     t_all = []
-    threshold = 0.005
+    threshold = 0.005   # accelerate extraction
     v_num = 0
     for i in range(resolution-1):
         for j in range(resolution-1):

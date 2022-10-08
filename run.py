@@ -73,7 +73,6 @@ class Runner:
         
         self.dataset = Dataset(self.conf['dataset'], args.dataname)
         self.dataname = args.dataname
-        # exit()
         self.iter_step = 0
 
         # Training parameters

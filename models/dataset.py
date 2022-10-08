@@ -119,7 +119,7 @@ class Dataset:
     def get_train_data_step2(self, batch_size):
         index_coarse = np.random.choice(10, 1)
         index_fine = np.random.choice(self.sample_points_num//10, batch_size, replace = False)
-        index = index_fine * 10 + index_coarse
+        index = index_fine * 10 + index_coarse  # for accelerating random choice operation
         points = self.point_new[index]
         sample = self.sample[index]
         return points, sample, self.point_gt

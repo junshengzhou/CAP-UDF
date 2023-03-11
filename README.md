@@ -156,7 +156,7 @@ If you find our code or paper useful, please consider citing
 
     @inproceedings{Zhou2022CAP-UDF,
         title = {Learning Consistency-Aware Unsigned Distance Functions Progressively from Raw Point Clouds},
-        author = {Zhou, Junsheng and Ma, Baorui and Liu Yu-Shen and Fang Yi and Han Zhizhong},
+        author = {Zhou, Junsheng and Ma, Baorui and Liu, Yu-Shen and Fang, Yi and Han, Zhizhong},
         booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
         year = {2022}
     }

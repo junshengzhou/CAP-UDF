@@ -1,10 +1,12 @@
 <p align="center">
 
-  <h1 align="center">Learning Consistency-Aware Unsigned Distance Functions Progressively from Raw Point Clouds</h1>
+  <h1 align="center">CAP-UDF: Learning Unsigned Distance Functions Progressively from Raw Point Clouds with Consistency-Aware Field Optimization</h1>
   <p align="center">
     <a href="https://junshengzhou.github.io/"><strong>Junsheng Zhou*</strong></a>
     ·
     <a href="https://mabaorui.github.io/"><strong>Baorui Ma*</strong></a>
+    ·
+    <a href="https://github.com/lisj575/"><strong>Shujuan Li</strong></a>
     ·
     <a href="https://yushen-liu.github.io/"><strong>Yu-Shen Liu</strong></a>
     ·
@@ -14,7 +16,7 @@
 
   </p>
   <p align="center"><strong>(* Equal Contribution)</strong></p>
-  <h2 align="center">NeurIPS 2022</h2>
+  <h2 align="center">TPAMI 2024 / NeurIPS 2022</h2>
   <h3 align="center"><a href="https://arxiv.org/pdf/2210.02757.pdf">Paper</a> | <a href="https://junshengzhou.github.io/CAP-UDF">Project Page</a></h3>
   <div align="center"></div>
 </p>
@@ -154,7 +156,15 @@ In different datasets or your own data, because of the variation in point cloud 
 ## Citation
 If you find our code or paper useful, please consider citing
 
-    @inproceedings{Zhou2022CAP-UDF,
+    @article{zhou2024cap-pami,
+          title={CAP-UDF: Learning Unsigned Distance Functions Progressively from Raw Point Clouds with Consistency-Aware Field Optimization},
+          author={Zhou, Junsheng and Ma, Baorui and Li, Shujuan and Liu, Yu-Shen and Fang, Yi and Han, Zhizhong},
+          journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+          year={2024},
+          publisher={IEEE}
+        }
+        
+    @inproceedings{zhou2022capudf,
         title = {Learning Consistency-Aware Unsigned Distance Functions Progressively from Raw Point Clouds},
         author = {Zhou, Junsheng and Ma, Baorui and Liu, Yu-Shen and Fang, Yi and Han, Zhizhong},
         booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},

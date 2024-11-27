@@ -156,13 +156,17 @@ In different datasets or your own data, because of the variation in point cloud 
 ## Citation
 If you find our code or paper useful, please consider citing
 
-    @article{zhou2024cap-pami,
-          title={CAP-UDF: Learning Unsigned Distance Functions Progressively from Raw Point Clouds with Consistency-Aware Field Optimization},
-          author={Zhou, Junsheng and Ma, Baorui and Li, Shujuan and Liu, Yu-Shen and Fang, Yi and Han, Zhizhong},
-          journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
-          year={2024},
-          publisher={IEEE}
-        }
+    @ARTICLE{zhou2024cappami,
+        author={Zhou, Junsheng and Ma, Baorui and Li, Shujuan and Liu, Yu-Shen and Fang, Yi and Han, Zhizhong},
+        journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+        title={CAP-UDF: Learning Unsigned Distance Functions Progressively From Raw Point Clouds With Consistency-Aware Field Optimization}, 
+        year={2024},
+        volume={46},
+        number={12},
+        pages={7475-7492},
+        keywords={Point cloud compression;Surface reconstruction;Three-dimensional displays;Shape;Neural networks;Estimation;Training;Normal estimation;point clouds;scene reconstruction;surface reconstruction;unsigned distance functions},
+        doi={10.1109/TPAMI.2024.3392364}
+    }
         
     @inproceedings{zhou2022capudf,
         title = {Learning Consistency-Aware Unsigned Distance Functions Progressively from Raw Point Clouds},
